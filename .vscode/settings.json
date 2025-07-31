@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "dbDriver": "mssqlnodev8",
+            "connectionMethod": "Integrated",
+            "connectionTimeout": 15,
+            "sidePanelOptions": {
+                "inaccessibleDatabase": true,
+                "inaccessibleSchema": true
+            },
+            "previewLimit": 50,
+            "odbcDriver": "SQL Server",
+            "port": 1433,
+            "msnodesqlv8Options": {},
+            "driver": "SQL Server/Azure Community Ver",
+            "name": "Local",
+            "server": "B53H284",
+            "database": "sjjk"
+        }
+    ]
+}
