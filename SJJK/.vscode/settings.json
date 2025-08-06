@@ -17,5 +17,7 @@
             "server": "B53H284",
             "database": "sjjk"
         }
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
