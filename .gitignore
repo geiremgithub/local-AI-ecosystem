@@ -1,2 +1,3 @@
-/test.txt
-/testing.sql
+venv/
+__pycache__/
+*.pyc
