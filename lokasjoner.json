@@ -1,0 +1,62 @@
+{
+  "kontrollrom": {
+    "navn": "Kontrollrom",
+    "beskrivelse": "Kontrollrommet ligger øverst i midten på Dekk 2, direkte over Palle-lagring."
+  },
+  "verksted": {
+    "navn": "Verksted",
+    "beskrivelse": "Verkstedet ligger på Dekk 2, øverst til venstre, rett ved siden av Adgangskontroll (nordvest) og Palle-lagring."
+  },
+  "pallelagring": {
+    "navn": "Palle-lagring",
+    "beskrivelse": "Palle-lagring ligger på Dekk 2, mellom Verksted og Pumperom, rett under Kontrollrommet."
+  },
+  "pumperom": {
+    "navn": "Pumperom (P-304)",
+    "beskrivelse": "Pumperom (P-304) ligger på høyre side av Dekk 2 og huser pumpene P-304A og P-304B."
+  },
+  "p-304a": {
+    "navn": "P-304A Pumpe",
+    "beskrivelse": "P-304A Pumpe står øverst i Pumperom (P-304), på høyre side av Dekk 2."
+  },
+  "p-304b": {
+    "navn": "P-304B Pumpe",
+    "beskrivelse": "P-304B Pumpe står nederst i Pumperom (P-304), under P-304A."
+  },
+  "kompressor": {
+    "navn": "K-102 Kompressor",
+    "beskrivelse": "K-102 Kompressor står i Kompressor-stasjonen, nede til venstre på Dekk 2. Avstanden fra K-102 til Pumperom P-304 er 8 meter."
+  },
+  "kompressor-stasjon": {
+    "navn": "Kompressor-stasjon (K-102)",
+    "beskrivelse": "Kompressor-stasjonen (K-102) ligger nede til venstre på Dekk 2, og inneholder K-102 Kompressor og Drivstofftank."
+  },
+  "drivstofftank": {
+    "navn": "Drivstofftank",
+    "beskrivelse": "Drivstofftanken befinner seg i Kompressor-stasjonen (K-102), nede til venstre på Dekk 2, rett under K-102 Kompressor."
+  },
+  "brannslange": {
+    "navn": "Brannslange",
+    "beskrivelse": "Brannslangen henger på veggen på høyre side av Dekk 2, like ved Pumperom (P-304)."
+  },
+  "nodutgang": {
+    "navn": "Nødutgang / Rømningsvei",
+    "beskrivelse": "Nødutgang / primær rømningsvei ligger helt til venstre på Dekk 2, ved Kompressor-stasjonen."
+  },
+  "adgangskontroll-nord": {
+    "navn": "Adgangskontroll (ved Verksted)",
+    "beskrivelse": "Adgangskontroll ved inngangen til Verksted, øverst til venstre på Dekk 2."
+  },
+  "adgangskontroll-sor": {
+    "navn": "Adgangskontroll (sør)",
+    "beskrivelse": "Adgangskontroll ved sørlig inngang, nederst i midten på Dekk 2, mellom Kompressor-stasjonen og Pumperom."
+  },
+  "sikkerhetsavstand": {
+    "navn": "Sikkerhetsavstand",
+    "beskrivelse": "Sikkerhetsavstanden midt på Dekk 2 (mellom Kontrollrom-området og Kompressor-stasjonen) er 2 meter."
+  },
+  "verneutstyr": {
+    "navn": "Personell med verneutstyr",
+    "beskrivelse": "Oppmøtepunkt for personell med verneutstyr (4 personer) er sentralt plassert på Dekk 2, mellom Kompressor-stasjonen og Pumperom."
+  }
+}
