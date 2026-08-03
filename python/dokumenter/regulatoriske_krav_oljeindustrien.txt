@@ -1,0 +1,50 @@
+1. Operatøren skal etablere, gjennomføre og videreutvikle et styringssystem for helse, miljø og sikkerhet (HMS).
+2. Rettighetshavere har et overordnet ansvar for at alle krav i petroleumslovgivningen overholdes.
+3. virksomheten skal planlegges og gjennomføres slik at fare for skade på mennesker, miljø og materielle verdier reduseres.
+4. Styringssystemet skal sikre kontinuerlig forbedring og systematisk oppfølging av risiko.
+5. PUD (Plan for utbygging og drift) skal godkjennes av Energidepartementet før utbygging kan starte.
+6. PAD (Plan for anlegg og drift) må foreligge ved bygging og drift av rørledninger og utskilte anlegg.
+7. Vesentlige endringer i forutsetningene for en PUD/PAD krever ny godkjenning fra myndighetene.
+8. Operatøren skal gjennomføre konsekvensutredninger før tildeling av nye utvinningstillatelser.
+9. Rettighetshavere skal innhente tillatelse til avhending eller nedstenging av innretninger (Avslutningsplan).
+10. Sokkeldirektoratet (Sodir) har ansvar for ressursforvaltning og effektiv utnyttelse av forekomstene.
+11. Unødvendig fakling og lufting av gass er forbudt på norsk kontinentalsokkel jf. petroleumsloven § 4-4.
+12. Tillatelse til brenning og lufting må innhentes fra Energidepartementet for hvert operative år.
+13. Rettighetshavere plikter å samle inn, bearbeide og rapportere tekniske data fra bore- og feltvirksomhet.
+14. Borerapporter og seismiske data skal sendes vederlagsfritt til Sokkeldirektoratet.
+15. Reservoarstyringen skal sikre høyest mulig utvinningsgrad basert på lydige bedriftsøkonomiske og samfunnsmessige prinsipper.
+16. Havindustritilsynet (Havtil) er tilsynsmyndighet for sikkerhet, arbeidsmiljø og beredskap til havs.
+17. Rammeforskriften fastsetter overordnede krav til helse, miljø og sikkerhet i petroleumsvirksomheten.
+18. Styringsforskriften krever at risiko skal identifiseres, analyseres og følges opp systematisk.
+19. Innretningsforskriften stiller krav til utforming, utstyr og konstruksjon av petroleumskonstruksjoner.
+20. Aktivitetsforskriften regulerer den faktiske gjennomføringen av operasjoner som boring, brønn service og drift.
+21. Teknisk og operasjonell forskrift setter detaljerte krav til funksjon og tekniske barrierer på innretninger.
+22. Operatøren skal ha etablert barrierer for å redusere sannsynlighet og konsekvens av ulykker.
+23. Storulykkerisiko skal dokumenteres og evalueres gjennom oppdaterte risiko- og sårbarhetsanalyser.
+24. Arbeidsmiljøet på innretningene skal tilrettelegges slik at arbeidstakerne beskyttes mot fysiske og psykiske belastninger.
+25. Maksimal tillatt arbeidstid og skiftordninger offshore skal overholde særskilte regler i arbeidsmiljøloven.
+26. Det skal til enhver tid være tilstrekkelig og kompetent personell tilstede på innretningen.
+27. Verneombud og arbeidsmiljøutvalg (AMU) skal involveres aktivt i planlegging av endringer og HMS-arbeid.
+28. Beredskapsorganisasjonen skal være dimmensjonert for å håndtere definerte fare- og ulykkessituasjoner (DFU).
+29. Det skal gjennomføres regelmessige beredskapsøvelser for å sikre høy innsatsevne ved uønskede hendelser.
+30. Alle ulykker og alvorlige tilløp til ulykker skal varsles umiddelbart til Havtil og Hovedredningssentralen.
+31. Miljødirektoratet regulerer forurensning, utslipp til sjø og luft samt håndtering av avfall fra petroleumssektoren.
+32. Tillatelse etter forurensningsloven kreves for alt utslipp av kjemikalier, borekaks og produsert vann.
+33. Utslipp av kjemikalier i rød og svart kategori skal som hovedregel unngås og krever særskilt substitusjonsplan.
+34. Miljørisikoanalyser og miljørettet konsekvensutredning må utarbeides før bore- og produksjonsstart.
+35. Miljøovervåking av havbunn og vannsøyle skal gjennomføres iht. retningslinjer fra Miljødirektoratet.
+36. Beredskap mot akutt forurensning skal være tilpasset miljørisikoen i det spesifikke området.
+37. NOFO (Norsk Oljevernforening For Operatørselskaper) samordner den private oljevernberedskapen på sokkelen.
+38. Operatøren skal ha kontinuerlig måling og rapportering av klimagassutslipp (CO2 og CH4).
+39. Petroleumssektoren er underlagt EUs kvotesystem (EU ETS) og må svare for sine CO2-utslipp.
+40. CO2-avgift skal betales for brenning av gass og direkte utslipp av gass til luft iht. CO2-avgiftsloven.
+41. Alt farlig avfall fra boreaktivitet og produksjon skal bringes til land og behandles ved godkjente anlegg.
+42. Radioaktive stoffer i produsert vann og skjellavleiringer skal håndteres etter strålevernlovgivningen.
+43. Leverandører og underleverandører må kvalifiseres og følges opp av operatøren for å sikre regelverksetterlevelse.
+44. Tilsyn gjennomføres av myndighetene ved revisjoner, verifikasjoner og uanmeldte inspeksjoner på innretningene.
+45. Ved avvik fra regelverket plikter virksomheten å iverksette korrigerende tiltak uten ugrunnet opphold.
+46. Tilsynsmyndighetene har hjemmel til å gi pålegg, stenge virksomhet eller ilegge tvangsmulkt ved regelbrudd.
+47. Norsk petroleumsvirksomhet bygger på prinsippet om funksjonsrettet regelverk med utstrakt bruk av standarder (f.eks. NORSOK).
+48. Bruk av anerkjente normer og standarder gir formodning om at regelverkets funksjonskrav er oppfylt.
+49. Samtykke fra Havtil må innhentes før bruk av leide innretninger, oppstart av boring eller vesentlige endringer.
+50. Årlig rapportering om HMS, utslipp, ressursregnskap og produksjon skal leveres til relevante myndigheter.
