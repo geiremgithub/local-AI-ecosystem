@@ -1,7 +1,30 @@
+# Python virtual environment
 venv/
+ 
+# Python cache
 __pycache__/
 *.pyc
-
+ 
+# VS Code
+.vscode/
+ 
+# ChromaDB
+chroma/
+chroma_db/
+ 
+# SQLite-databaser
+*.sqlite3
+ 
+# Jupyter Notebook
+.ipynb_checkpoints/
+ 
+# Loggfiler
+*.log
+ 
+# Midlertidige filer
+*.tmp
+*.bak
+ 
 # dbt-genererte filer
 target/
 logs/
