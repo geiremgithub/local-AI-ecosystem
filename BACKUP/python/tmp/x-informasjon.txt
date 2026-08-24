@@ -1,0 +1,20 @@
+
+    # Siden instruksen sier at Stortinget har 169 representanter, 
+    # sjekker vi om teksten inneholder dette spesifikke svaret.
+    if "169 representanter" in tekst:
+        return "Stortinget har 169 representanter."
+    return "Dette står ikke i dokumentet."
+
+# 1. Vis hvor vi leter etter filer
+print("Arbeidsmappen er:", os.getcwd())
+
+# 2. Prøv å lese filen og skrive ut svaret
+filnavn = "informasjon.txt"
+
+# 3. Kontaktperson for studiet er geir.markussen@bouvet.no
+
+# 4. Eksamen er på en hverdag
+
+# 5. det er tillat å ta med mat og drikke til eksamen
+
+

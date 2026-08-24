@@ -1,0 +1,147 @@
+[
+  {
+    "sporsmal": "Når starter skolen?",
+    "forventet": "08:30",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Er snus tillatt på skolens område?",
+    "forventet": "Nei",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Er det lov å bruke mobiltelefon i undervisningen uten tillatelse?",
+    "forventet": "Nei",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Hvor mange prosent fravær i et fag fører til at man mister retten til karakter?",
+    "forventet": "10 prosent",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Kan en elev med 5 prosent fravær i et fag miste karakteren?",
+    "forventet": "Nei",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Kan en elev med 15 prosent fravær i et fag miste karakteren?",
+    "forventet": "Ja",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Hva heter skolens trådløse nettverk?",
+    "forventet": "SkoleGjest",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Er det lov å spise mat i datasalen?",
+    "forventet": "Nei",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Hvor mange uker varer skoleåret?",
+    "forventet": "38 uker",
+    "kilde": "skoleregler.txt"
+  },
+  {
+    "sporsmal": "Hvor mange uker sammenhengende ferie har ansatte krav på i hovedperioden?",
+    "forventet": "fire uker",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Har ansatte over 60 år krav på en ekstra ferieuke?",
+    "forventet": "Ja",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Kan en ansatt på 55 år kreve den ekstra senioruken?",
+    "forventet": "Nei",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Kan en ansatt på 65 år kreve den ekstra senioruken?",
+    "forventet": "Ja",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Hvor mange omsorgsdager har en ansatt med to barn rett til ved barns sykdom?",
+    "forventet": "10 dager",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Hva er kjernetiden i bedriften?",
+    "forventet": "09:00",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Er halve feriedager tillatt å registrere i systemet?",
+    "forventet": "Nei",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Hvor mange timer kan man maks overføre på flexikontoen ved månedsslutt?",
+    "forventet": "45 timer",
+    "kilde": "ferieinfo.txt"
+  },
+  {
+    "sporsmal": "Er det lov å ta med egen mat til skriftlig eksamen?",
+    "forventet": "Ja",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Hvilket karaktersnitt kreves for å få godkjent utveksling til utlandet?",
+    "forventet": "C",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Kan en student med karaktersnitt B få godkjent utveksling?",
+    "forventet": "Ja",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Kan en student med karaktersnitt D få godkjent utveksling?",
+    "forventet": "Nei",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Hvor mange sider kan studenter skrive ut gratis per semester?",
+    "forventet": "200 sider",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Hva heter det trådløse nettverket på campus?",
+    "forventet": "Eduroam",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Gis det økonomisk støtte til trykking av masteroppgaver?",
+    "forventet": "Nei",
+    "kilde": "informasjon.txt"
+  },
+  {
+    "sporsmal": "Er unødvendig fakling og lufting av gass tillatt på norsk kontinentalsokkel?",
+    "forventet": "Nei",
+    "kilde": "regulatoriske_krav_oljeindustrien.txt"
+  },
+  {
+    "sporsmal": "Hvem er tilsynsmyndighet for sikkerhet, arbeidsmiljø og beredskap til havs?",
+    "forventet": "Havtil",
+    "kilde": "regulatoriske_krav_oljeindustrien.txt"
+  },
+  {
+    "sporsmal": "Må PUD godkjennes før utbygging kan starte?",
+    "forventet": "Ja",
+    "kilde": "regulatoriske_krav_oljeindustrien.txt"
+  },
+  {
+    "sporsmal": "Hvem samordner den private oljevernberedskapen på sokkelen?",
+    "forventet": "NOFO",
+    "kilde": "regulatoriske_krav_oljeindustrien.txt"
+  },
+  {
+    "sporsmal": "Skal alle ulykker og alvorlige tilløp varsles umiddelbart til Havtil?",
+    "forventet": "Ja",
+    "kilde": "regulatoriske_krav_oljeindustrien.txt"
+  }
+]

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dokumentoppslag</title>
+<style>
+  :root {
+    --papir: #EDEAE2;
+    --panel: #FFFFFF;
+    --blekk: #1F2937;
+    --blekk-svak: #6B7280;
+    --navy: #1D3557;
+    --navy-lys: #2A4A73;
+    --varsel: #B45309;
+    --varsel-bg: #FEF3E2;
+    --linje: #D9D4C8;
+    --radius: 6px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--papir);
+    color: var(--blekk);
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 1.1rem 1.5rem;
+    border-bottom: 1px solid var(--linje);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  header h1 {
+    font-family: Georgia, "Source Serif Pro", serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 0.01em;
+  }
+
+  header .undertekst {
+    font-size: 0.8rem;
+    color: var(--blekk-svak);
+    margin-top: 0.15rem;
+  }
+
+  .modus-velger {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.85rem;
+  }
+
+  .modus-velger select {
+    font-family: inherit;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--linje);
+    background: var(--panel);
+    color: var(--blekk);
+  }
+
+  .info-knapp {
+    font-family: inherit;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--linje);
+    background: var(--panel);
+    color: var(--navy);
+    cursor: pointer;
+  }
+
+  .info-knapp:hover {
+    background: #EEF2F7;
+  }
+
+  .diagram-panel {
+    border-bottom: 1px solid var(--linje);
+    background: var(--panel);
+    padding: 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .diagram-panel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+
+  .diagram-panel.skjult {
+    display: none;
+  }
+
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .melding {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .melding.bruker { align-items: flex-end; }
+  .melding.ai { align-items: flex-start; }
+
+  .boble {
+    max-width: 85%;
+    padding: 0.7rem 0.95rem;
+    border-radius: var(--radius);
+    line-height: 1.45;
+    font-size: 0.95rem;
+  }
+
+  .melding.bruker .boble {
+    background: var(--navy);
+    color: #fff;
+    border-bottom-right-radius: 2px;
+  }
+
+  .melding.ai .boble {
+    background: var(--panel);
+    border: 1px solid var(--linje);
+    border-bottom-left-radius: 2px;
+  }
+
+  .saksmappe {
+    max-width: 85%;
+    background: var(--panel);
+    border: 1px solid var(--linje);
+    border-radius: var(--radius);
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+    position: relative;
+  }
+
+  .saksmappe-svar {
+    margin: 0 0 0.55rem 0;
+    line-height: 1.5;
+  }
+
+  .kilde-stempel {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+    font-size: 0.72rem;
+    color: var(--navy);
+    background: #EEF2F7;
+    border: 1px solid #C7D3E3;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  details.debug {
+    margin-top: 0.6rem;
+    font-size: 0.78rem;
+    color: var(--blekk-svak);
+  }
+
+  details.debug summary {
+    cursor: pointer;
+    user-select: none;
+    color: var(--navy);
+  }
+
+  details.debug .felt {
+    margin-top: 0.35rem;
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    background: #FAFAF7;
+    border: 1px solid var(--linje);
+    border-radius: 4px;
+    padding: 0.5rem 0.6rem;
+    white-space: pre-wrap;
+  }
+
+  .advarsel-boks {
+    margin-top: 0.6rem;
+    background: var(--varsel-bg);
+    border: 1px solid #F0C283;
+    color: var(--varsel);
+    border-radius: 4px;
+    padding: 0.5rem 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .venter {
+    font-size: 0.85rem;
+    color: var(--blekk-svak);
+    font-style: italic;
+  }
+
+  .sporrefelt-topp {
+    border-bottom: 1px solid var(--linje);
+    padding: 1rem 1.5rem;
+    background: var(--panel);
+  }
+
+  form {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  form input[type="text"] {
+    flex: 1;
+    padding: 0.7rem 0.9rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--linje);
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: var(--panel);
+  }
+
+  form input[type="text"]:focus {
+    outline: 2px solid var(--navy-lys);
+    outline-offset: 1px;
+  }
+
+  form button {
+    padding: 0 1.3rem;
+    border-radius: var(--radius);
+    border: none;
+    background: var(--navy);
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  form button:hover { background: var(--navy-lys); }
+  form button:disabled { opacity: 0.5; cursor: default; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .melding { animation: dukk-opp 0.18s ease-out; }
+  }
+  @keyframes dukk-opp {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Dokumentoppslag</h1>
+    <div class="undertekst">Spør mot dokumentene i mappen — svarene bygger kun på det som faktisk står der</div>
+  </div>
+  <div class="modus-velger">
+    <button type="button" id="diagram-knapp" class="info-knapp">Slik fungerer det ⓘ</button>
+    <button type="button" id="nullstill-knapp" class="info-knapp">Nullstill samtale</button>
+    <label for="modus">Tone:</label>
+    <select id="modus">
+      {% for m in moduser %}
+      <option value="{{ m }}" {% if m == standard_modus %}selected{% endif %}>{{ m }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</header>
+
+<div id="diagram-panel" class="diagram-panel skjult">
+  <img src="{{ url_for('static', filename='rag_pipeline.png') }}" alt="Diagram som viser hvordan spørringen behandles: dokumentkilder, tekstekstraksjon, chunking, tokenisering, token-ID-er og embedding-modell.">
+</div>
+
+<div class="sporrefelt-topp">
+  <form id="skjema">
+    <input type="text" id="sporsmal" placeholder="Skriv spørsmålet ditt…" autocomplete="off" autofocus>
+    <button type="submit" id="send-knapp">Spør</button>
+  </form>
+</div>
+
+<main id="samtale"></main>
+
+<script>
+  const diagramKnapp = document.getElementById("diagram-knapp");
+  const diagramPanel = document.getElementById("diagram-panel");
+  diagramKnapp.addEventListener("click", () => {
+    diagramPanel.classList.toggle("skjult");
+  });
+
+  const nullstillKnapp = document.getElementById("nullstill-knapp");
+  nullstillKnapp.addEventListener("click", async () => {
+    nullstillKnapp.disabled = true;
+    try {
+      await fetch("/api/nullstill", { method: "POST" });
+    } catch (feil) {
+      console.error("Klarte ikke å nullstille samtalen på serveren:", feil);
+    } finally {
+      samtale.innerHTML = "";
+      nullstillKnapp.disabled = false;
+      sporsmalFelt.focus();
+    }
+  });
+
+  const samtale = document.getElementById("samtale");
+
+  const skjema = document.getElementById("skjema");
+  const sporsmalFelt = document.getElementById("sporsmal");
+  const sendKnapp = document.getElementById("send-knapp");
+  const modusVelger = document.getElementById("modus");
+
+  function leggTilBrukerMelding(tekst) {
+    const div = document.createElement("div");
+    div.className = "melding bruker";
+    div.innerHTML = `<div class="boble"></div>`;
+    div.querySelector(".boble").textContent = tekst;
+    samtale.appendChild(div);
+    samtale.scrollTop = samtale.scrollHeight;
+  }
+
+  function leggTilVenting() {
+    const div = document.createElement("div");
+    div.className = "melding ai";
+    div.id = "venter-melding";
+    div.innerHTML = `<div class="venter">Søker i dokumentene …</div>`;
+    samtale.appendChild(div);
+    samtale.scrollTop = samtale.scrollHeight;
+    return div;
+  }
+
+  function leggTilSvar(data) {
+    const gammel = document.getElementById("venter-melding");
+    if (gammel) gammel.remove();
+
+    const div = document.createElement("div");
+    div.className = "melding ai";
+
+    if (data.feil) {
+      div.innerHTML = `<div class="boble">Beklager, noe gikk galt: ${escapeHtml(data.feil)}</div>`;
+      samtale.appendChild(div);
+      samtale.scrollTop = samtale.scrollHeight;
+      return;
+    }
+
+    const kildeTekst = data.kilde ? `${escapeHtml(data.kilde)} · bit ${data.chunk}` : "ingen kilde funnet";
+
+    let debugHtml = "";
+    if (data.fakta || data.sammenligning) {
+      debugHtml = `
+        <details class="debug">
+          <summary>Vis grunnlaget for svaret</summary>
+          ${data.fakta ? `<div class="felt">FAKTA: ${escapeHtml(data.fakta)}</div>` : ""}
+          ${data.sammenligning ? `<div class="felt">SAMMENLIGNING: ${escapeHtml(data.sammenligning)}</div>` : ""}
+        </details>`;
+    }
+
+    const advarselHtml = data.advarsel
+      ? `<div class="advarsel-boks">⚠ ${escapeHtml(data.advarsel)}</div>`
+      : "";
+
+    div.innerHTML = `
+      <div class="saksmappe">
+        <p class="saksmappe-svar">${escapeHtml(data.svar)}</p>
+        <span class="kilde-stempel">${kildeTekst}</span>
+        ${advarselHtml}
+        ${debugHtml}
+      </div>`;
+
+    samtale.appendChild(div);
+    samtale.scrollTop = samtale.scrollHeight;
+  }
+
+  function escapeHtml(tekst) {
+    const div = document.createElement("div");
+    div.textContent = tekst || "";
+    return div.innerHTML;
+  }
+
+  skjema.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const sporsmal = sporsmalFelt.value.trim();
+    if (!sporsmal) return;
+
+    leggTilBrukerMelding(sporsmal);
+    sporsmalFelt.value = "";
+    sendKnapp.disabled = true;
+    leggTilVenting();
+
+    try {
+      const respons = await fetch("/api/sporsmal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sporsmal: sporsmal, modus: modusVelger.value }),
+      });
+      const data = await respons.json();
+      leggTilSvar(data);
+    } catch (feil) {
+      leggTilSvar({ feil: "Fikk ikke kontakt med serveren." });
+    } finally {
+      sendKnapp.disabled = false;
+      sporsmalFelt.focus();
+    }
+  });
+</script>
+
+</body>
+</html>

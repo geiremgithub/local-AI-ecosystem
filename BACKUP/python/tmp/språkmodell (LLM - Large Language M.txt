@@ -1,0 +1,22 @@
+språkmodell (LLM - Large Language Model).
+enklere modell: Llama-3-8B-Instruct
+
+sentence-transformers/paraphrase-multilingual-MiniLM-
+
+
+
+# Qwen/Qwen2.5-3B-Instruct - https://ollama.com/library/qwen2.5
+ Qwen/Qwen2.5-3B-Instruct, er trent på hele 18 billioner tokens (18 000 000 000 000 tekstbiler/orddeler)
+ Selv om modellen er fysisk liten og lett å kjøre på en vanlig PC, har utviklerne hos Alibaba Cloud proppet den full av nesten like mye treningsdata som de gigantiske modellene på markedet.
+ sterkt forbedrede muligheter innen koding og matematikk , takket være spesialiserte ekspertmodeller på disse domenene.
+
+# ChromaDB (en gratis vektordatabase som kjører rett i Python) 
+
+# embedding modell: 
+sentence-transformers/all-MiniLM-L6-v2 
+
+sentence-transformers/paraphrase-multilingual-MiniLM- 
+har en maksimal sekvenslengde på 512 tokens . 
+Det betyr at alt som overstiger 512 tokens i én enkelt chunk vil bli kuttet (truncated) av embedding-modellen, og informasjonen på slutten blir helt usynlig under søk.
+Tommelfingerregel: 512 tokens tilsvarer grovt regnet rundt 300–400 ord (eller ca. 1500–2000 tegn på norsk, ettersom norske spesialtegn og sammensatte ofte bruker litt flere tokens).
+

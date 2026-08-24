@@ -1,0 +1,52 @@
+# Generell Informasjonsdatabase for Studiet
+
+1. Kontaktperson for det administrative studiet er geir.markussen@bouvet.no.
+2. Det er tillatt å ta med egen mat og drikke til alle skriftlige eksamener i år.
+3. Den offisielle e-postadressen for teknisk brukerstøtte er post@microsoft.com.
+4. Eksamen arrangeres utelukkende på hverdager og aldri i helger eller på helligdager.
+5. Det norske Stortinget har totalt 169 valgte representanter fra hele landet.
+6. En enkel og ikke-programmerbar kalkulator er godkjent som hjelpemiddel under prøven.
+7. Godkjente kalkulatormerker for denne spesifikke testen inkluderer HP, Canon og Casio.
+8. Pensumlitteraturen for dette semesteret består av totalt fire obligatoriske fagbøker.
+9. Alle obligatoriske oppgaver må være godkjent før man kan fremstille seg til eksamen.
+10. Fristen for å levere den førstesemesteroppgaven er satt til 15. oktober klokken 12:00.
+11. Universitetsbiblioteket tilbyr gratis kurs i kildehenvisning og akademisk skriving hver onsdag.
+12. Det kreves gyldig studentbevis med foto for å få adgang til eksamenslokalet.
+13. Studenter som har behov for spesialtilpasning under eksamen må søke innen 1. september.
+14. Ekstra tid på eksamen på grunn av dokumentert dysleksi er normalt begrenset til 30 minutter.
+15. Karakterutskrifter hentes ut digitalt via Studentweb og skrives ikke ut på papir lenger.
+16. Klage på formelle feil ved eksamen må fremsettes senest tre uker etter opplyst dato.
+17. Begrunnelse for karakterfastsetting må kreves innen en uke etter at sensuren har falt.
+18. Det akademiske året er delt inn i et høstsemester og et vårsemester.
+19. Semesteravgiften må være betalt i sin helhet før man får tilgang til IT-systemene.
+20. Det trådløse nettverket på campus heter "Eduroam" og fungerer over hele Europa.
+21. Studenter kan skrive ut dokumenter gratis inntil en kvote på 200 sider per semester.
+22. IT-avdelingen har kontortid hver ukedag mellom klokken 08:00 og klokken 15:30.
+23. Kantinen på campus tilbyr studentrabatt på alle varme retter mot fremvisning av gyldig app.
+24. Bokhandelen på campus har alle relevante kompendier og pensumbøker på lager ved studiestart.
+25. Studentparlamentet er studentenes øverste demokratiske organ og velges hver høst.
+26. Det finnes over 40 forskjellige studentorganisasjoner på campus man kan bli medlem i.
+27. Det arrangeres fadderuke for alle nye studenter i den tredje uken av august.
+28. Forelesningene strømmes live på nett for studenter som ikke har mulighet til å møte opp fysisk.
+29. Opptak av forelesninger ligger tilgjengelig i læringsportalen i maksimalt 30 dager etterpå.
+30. Grupperom på biblioteket må bookes elektronisk på forhånd via universitetets bookingsystem.
+31. Maksimal tid for sammenhengende booking av et enkelt grupperom er tre timer per dag.
+32. Glemte gjenstander på campus leveres til hittegodskontoret i administrasjonsbygget.
+33. Universitetets treningssenter tilbyr billig medlemskap for alle som har betalt semesteravgift.
+34. Det er ikke tillatt å reservere leseplasser ved å legge igjen personlige eiendeler over natten.
+35. Vektertjenesten patruljerer området hele døgnet og kan nås på nødtelefon 5544.
+36. Parkering på campus krever gyldig oblat som kjøpes elektronisk via kommunens nettsider.
+37. Det er egne ladeplasser for elbiler på den nordlige parkeringsplassen ved bygg B.
+38. Maksimal ladetid på elbilplassene er begrenset til fire timer for å sikre rullering.
+39. Universitetet ble grunnlagt i 1974 og har i dag over ti tusen aktive studenter.
+40. Internasjonal avdeling hjelper studenter som ønsker å ta et utvekslingssemester i utlandet.
+41. De mest populære utvekslingslandene for våre studenter er Australia, USA og Spania.
+42. Det kreves et karaktersnitt på C eller bedre for å få godkjent utveksling til utlandet.
+43. Praksisperioden for andreårsstudenter varer i totalt seks uker og gjennomføres på våren.
+44. Bedriftspresentasjoner arrangeres i samarbeid med næringslivet hver torsdag i fellesarealet.
+45. Det gis ikke økonomisk støtte til trykking av masteroppgaver fra instituttets side.
+46. Innlevering av masteroppgaven skjer digitalt i vitenskapsarkivet "Inspera" innen 1. juni.
+47. Vitnemålsutdelingen finner sted i den store festsalen i midten av juni måned hvert år.
+48. Alumni-nettverket samler tidligere studenter for faglige oppdateringer og nettverksbygging.
+49. Forskningsavdelingen publiserer over to hundre vitenskapelige artikler i året internasjonalt.
+50. Ansvarlig studieleder for dette spesifikke programmet kan kontaktes på studieleder@bouvet.no.
