@@ -1,3 +1,4 @@
+# --- Lokal ai økosystem ---
 import os
 import sys
 import warnings
