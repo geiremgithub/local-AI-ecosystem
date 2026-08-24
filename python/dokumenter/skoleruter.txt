@@ -1,0 +1,15 @@
+Offisiell skolerute for grunnskoler i Stavanger – skoleår 2026/2027
+
+Kilde:
+https://www.stavanger.kommune.no/barnehage-og-skole/skole/skolerute-20262027/
+
+Merknad: Opplysningene er hentet direkte fra Stavanger kommunes offisielle skolerute for skoleåret 2026/2027.
+
+1299.Første skoledag og skolestart er 17. august
+Høstferie: uke 41 (5.–9. oktober 2026).
+Juleferie: fra siste skoledag før jul 2026 til første skoledag etter jul 2027, som beskrevet på den offisielle Stavanger-skoleruten.
+Vinterferie: uke 7 (15.–19. februar 2027).
+Påskeferie: 22.–29. mars 2027.
+Sommerferie: etter siste skoledag før sommerferien i juni 2027, som beskrevet på Stavanger kommunes skolerute.
+
+Sist oppdatert automatisk ved kjøring av skolerute_agent.py.
