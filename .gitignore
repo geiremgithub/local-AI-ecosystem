@@ -29,3 +29,7 @@ chroma_db/
 target/
 logs/
 dbt.log
+
+# Backup og midlertidige filer
+BACKUP/
+temp/
